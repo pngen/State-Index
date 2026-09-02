@@ -1,0 +1,48 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+
+# CMake generated
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+*.cmake.in.gen
+
+# Visual Studio / IDE
+.vs/
+.vscode/
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.user
+
+# Compiled objects / libraries
+*.obj
+*.o
+*.lib
+*.a
+*.so
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
+
+# Test / persistence artifacts
+*.bin
+*.idx
+*.sidx
+*.tmp
+*.part
+*_persist.bin
+state-index-*.bin
+
+# Benchmark output
+bench_*.txt
+
+# Scratch
+scratch/
+.idea/
